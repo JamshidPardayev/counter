@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    align-content: center;
+    background-color: black;
+}
+.section{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.section h1{
+    color: #0f0f2c;
+    font-size: 60px;
+}
+.section p{
+    font-size: 120px;
+}
+.section button{
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 20px;
+    font-weight: bold;
+    background-color: azure;
+}
+.section button:hover{
+    cursor: pointer;
+    transition: .3s;
+    border-color: blue;
+    color: blue;
+}
+.top{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: 700px;
+    margin: 10px auto;
+
+}
+.bx-brush{
+    color: azure;
+    font-size: 40px;
+    cursor: pointer;
+}
+.top button{
+    width: 40px;
+    height: 40px;
+    background-color: azure;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.seeColors{
+    display: none;
+    column-gap: 10px;
+    margin-left: 20px;
+}
+.seeColors button{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+#red{
+    background-color: azure;
+}
+#red{
+    background-color: red;
+}
+#aqua{
+    background-color: aqua;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#lime{
+    background-color: lime;
+}
+#fuchsia{
+    background-color: fuchsia;
+}
+#purple{
+    background-color: purple;
+}
+#brown{
+    background-color: brown;
+}
+#gray{
+    background-color: gray;
+}
+#white{
+    background-color: white;
+}
+
